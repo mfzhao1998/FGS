@@ -9,7 +9,7 @@ from mpl_toolkits.axes_grid1 import host_subplot
 import mpl_toolkits.axisartist as AA
 
 
-txt_data_path = ""  #ecognition导出路径
+txt_data_path = "" 路径
 files = [f for f in os.listdir(txt_data_path) if f.endswith('.txt')]
 txtfiles=[os.path.join(txt_data_path, f) for f in files if f.endswith('.txt')]
 results=[]
